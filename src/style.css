@@ -1,0 +1,108 @@
+body {
+  font-family: "Tajawal", sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/796/original/Above_Clouds.png?1702307675);
+}
+
+header {
+  border-bottom: 1px solid #38598b;
+  padding: 0 0 35px;
+}
+
+main {
+  padding: 30px 0;
+  color: #113f67;
+}
+
+footer {
+  border-top: 1px solid #38598b;
+  padding: 30px 0 0;
+  text-align: center;
+  font-size: 16px;
+  color: #38598b;
+}
+
+a {
+  color: #4488ed;
+}
+
+.weather-app {
+  background-color: #dcdcdc;
+  width: 40%;
+  margin: 60px auto;
+  padding: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+}
+
+.search-form-input {
+  background-color: #e8fbfe;
+  color: #113f67;
+  border: none;
+  border-radius: 6px;
+  padding: 20px 30px;
+  font-size: 16px;
+  margin-left: 10px;
+  width: 75%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.search-form-button {
+  background-color: #40c6eb;
+  border: none;
+  border-radius: 6px;
+  padding: 20px 30px;
+  color: #e7eaf6;
+  margin-left: 10px;
+  font-size: 16px;
+  width: 20%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.weather-app-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 20px 10px 15px;
+  font-size: 50px;
+  font-weight: 700px;
+  line-height: 50px;
+}
+
+.weather-app-details {
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.weather-app-details strong {
+  color: rgb(169, 22, 52);
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-icon {
+  font-size: 120px;
+  margin-top: -5px;
+  font-weight: bold;
+  width: 120px;
+  height: 120px;
+}
+
+.weather-app-temp-unit {
+  margin-top: 25px;
+  font-size: 30px;
+  margin-right: 10px;
+  font-weight: 700px;
+}
+
+.weather-app-temperature {
+  font-size: 100px;
+  font-weight: bold;
+  margin-left: 10px;
+  line-height: 100px;
+  margin-top: 25px;
+}
