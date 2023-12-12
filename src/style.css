@@ -85,11 +85,11 @@ a {
 }
 
 .weather-app-icon {
-  font-size: 120px;
+  font-size: 100px;
   margin-top: -5px;
   font-weight: bold;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 .weather-app-temp-unit {
