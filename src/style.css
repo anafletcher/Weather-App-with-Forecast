@@ -116,11 +116,8 @@ a {
 }
 
 .weather-forecast-date {
+  text-align: center;
   font-size: 16px;
-  opacity: 0.5;
-}
-
-.weather-forecast-temp-min {
   opacity: 0.5;
 }
 
