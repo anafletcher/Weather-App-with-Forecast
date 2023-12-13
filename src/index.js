@@ -20,7 +20,7 @@ function refreshWeatherData(response) {
   iconElement.innerHTML = `<img src ="${response.data.condition.icon_url}" class="weather-app-icon"/>`;
 
   let footerEmoji = document.querySelector("#footer-emoji");
-  if (temperature < 5) {
+  if (temperature < 2) {
     footerEmoji.innerHTML = String.fromCodePoint(0x1f976);
   } else if (temperature < 25) {
     footerEmoji.innerHTML = String.fromCodePoint(0x1f60a);
@@ -86,7 +86,7 @@ function displayForecast(response) {
   let forecastHtml = "";
 
   response.data.daily.forEach(function (day, index) {
-    if (index < 2) {
+    if (index < 5) {
       forecastHtml =
         forecastHtml +
         `
