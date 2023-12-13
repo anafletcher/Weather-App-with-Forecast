@@ -85,11 +85,10 @@ a {
 }
 
 .weather-app-icon {
-  font-size: 100px;
   margin-top: -5px;
   font-weight: bold;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 .weather-app-temp-unit {
@@ -132,6 +131,14 @@ a {
   padding: 0 10px;
 }
 
+.weather-forecast-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
 .weather-forecast-icon:hover {
-  transform: scale(2.5);
+  transform-origin: center center;
+  transform: scale(2);
 }
